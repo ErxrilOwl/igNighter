@@ -1,0 +1,114 @@
+header .row{
+	display: flex;
+	align-items: center;
+	background-color: #333;
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-end
+	float: right;
+}
+
+.row1col1{
+	width: 200%;
+	float: right;
+}
+.row1col2{
+	width: 100%;
+	float: right;
+}
+
+h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+header h1{
+	padding: 0 20px 0 20px;
+	margin: 0;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	float: right;
+	overflow: hidden;
+	margin: 0;
+	list-style: none;
+}
+
+ul li{
+	font-family: 'Lato', sans-serif;
+	padding: 0;
+	border-left: 1px solid #bbb;
+}
+
+.pull-right a{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 15px 15px;
+	margin: 0;
+}
+
+.pull-right a:hover{
+	background-color: #111;
+}
+
+.jumbotron{
+	background-image: url("images/jumbotronCover.jpg");
+	background-size: cover;
+	color: #ffffff;
+	height: 35em;
+}
+
+.second-header {
+	float: center;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.row-text-center h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 46pt;
+	text-shadow: 0.75px 0.75px 0.75px #000000;
+}
+
+.row-text-center h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 24pt;
+	text-shadow: 0.75px 0.75px 0.75px #000000;
+}
+
+.btn-primary {
+	border-radius: 5px;
+	padding: 5px 8px 5px 8px;
+	border: 0px;
+	background-color: #003399;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.btn-primary:hover{
+	background-color: #0033CC;
+}
+
+.btn-primary a:active{
+	top: 2px;
+	background-color: #0033CC;
+}
+.page-description {
+	border-radius: 4em 1em 4em 1em / 1em 4em 1em 4em;
+	color: black;
+	font-size: 13pt;
+	text-align: center;
+	margin: 0px 30px 30px 30px;
+	padding: 30px;
+	background: rgba(255,255,255, .8);
+}
